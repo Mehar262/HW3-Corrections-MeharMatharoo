@@ -13,7 +13,6 @@ pub fn sum_i32(arr: &[i32; 8]) -> i32 {
     sum
 }
 
-
 pub fn min_max_i32(arr: &[i32; 8]) -> (i32, i32) {
     // TODO: return (min, max)
     let mut min = arr [0];
@@ -40,7 +39,6 @@ pub fn mean_f64(arr: &[f64; 6]) -> f64 {
     }
     sum / arr.len() as f64 
 }
-
 
 pub fn normalize_minmax_f64(arr: &[f64; 6]) -> [f64; 6] {
     // TODO: normalize to [0,1] using (x - min) / (max - min); handle flat case
@@ -77,7 +75,6 @@ pub fn clamp_u8(arr: &mut [u8; 10], low: u8, high: u8) {
         }
     }
 }
-
 
 pub fn histogram3(arr: &[i32; 12], thresholds: (i32, i32)) -> [usize; 3] {
     // TODO: return three counts: < t1, between [t1,t2], > t2
