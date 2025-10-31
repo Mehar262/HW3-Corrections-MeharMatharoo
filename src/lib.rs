@@ -118,6 +118,7 @@ pub fn parse_grade(letter: char) -> u8 {
     }
 }
 
+// adding tests
 
 mod tests {
     use super::*;
