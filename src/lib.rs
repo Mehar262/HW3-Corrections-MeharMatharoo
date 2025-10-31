@@ -14,8 +14,6 @@ pub fn sum_i32(arr: &[i32; 8]) -> i32 {
 }
 
 
-
-
 pub fn min_max_i32(arr: &[i32; 8]) -> (i32, i32) {
     // TODO: return (min, max)
     let mut min = arr [0];
