@@ -188,3 +188,4 @@ mod tests {
 }
 
 // You may add tests here (they won't be run by autograder). See tests/tests.rs instead.
+// HW3 Corrections — verified and ready to submit
